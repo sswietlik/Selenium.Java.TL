@@ -1,4 +1,4 @@
-package DemoTest;
+package a001_DemoTest;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Dimension;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DemoTestClass {
 
     @Test
-    public void demoTest(){
+    public void demoTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().setSize(new Dimension(320, 280));
