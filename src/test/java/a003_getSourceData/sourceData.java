@@ -41,12 +41,12 @@ public class sourceData {
         System.out.println(ChipPageTitle);
     }
 
-//    @Test
-//    public void getPageData(){
-//        String obrazZeStrony = "https://cdn.arduino.cc/homepage/static/media/arduino-UNO.bcc69bde.png";
-//        driver.navigate().to("https://www.arduino.cc/");
-//        Assertions.assertTrue(driver.getPageSource().contains(obrazZeStrony), "obraz nie jest zawarty" + obrazZeStrony);
-//
-//
-//    }
+    @Test
+    public void getPageData(){
+        String googlePng = "/logos/doodles/2020/grandfathers-day-2020-poland-6753651837108266-l.png";
+        driver.navigate().to("https://www.google.pl");
+        Assertions.assertTrue(driver.getPageSource().contains(googlePng), "Brak obrazu" + googlePng);
+
+
+    }
 }
