@@ -43,7 +43,7 @@ public class sourceData {
 
     @Test
     public void getPageData(){
-        String googlePng = "/logos/doodles/2020/grandfathers-day-2020-poland-6753651837108266-l.png";
+        String googlePng = "/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
         driver.navigate().to("https://www.google.pl");
         Assertions.assertTrue(driver.getPageSource().contains(googlePng), "Brak obrazu" + googlePng);
 
