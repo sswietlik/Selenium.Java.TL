@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="TestElk" />
         <module name="TestElka1" />
+        <module name="Selenium.Java.TL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="13" />

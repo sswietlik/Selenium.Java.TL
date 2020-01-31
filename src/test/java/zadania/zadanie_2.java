@@ -44,7 +44,6 @@ public class zadanie_2 {
         driver.findElement(By.cssSelector("a[lang='es']")).click();
         System.out.println("Lang swap ");
 
-
         String pageTitle2 = "Wikipedia, la enciclopedia libre";
         String  expectedURL2 = "https://es.wikipedia.org/";
 
